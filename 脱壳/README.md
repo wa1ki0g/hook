@@ -15,10 +15,6 @@ ro.debuggable = true
 frida -U -f com.xxx.xxx.xxx -l dupDex.js --no-pause
 请修改“/data/data/com.jjwxc.reader/”
 
-# 功能
-
-art::DexFile::OpenCommon(unsigned char const*, unsigned long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int, art::OatDexFile const*, bool, bool, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*, art::DexFile::VerifyResult*)
-
 # 测试
 
 腾讯
