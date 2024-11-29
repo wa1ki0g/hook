@@ -1,3 +1,10 @@
+# 普通的检测总结以下几种手段：
+# 检测/data/local/tmp下的frida特征文件，frida默认端口27042
+# 双进程检测
+# 检测/proc/pid/maps、/proc/pid/task/tid/stat、/proc/pid/fd中的frida特征
+# 检测D-BUS
+# 安卓系统使用Binder机制来实现进程间通信（IPC），而不是使用D-Bus。检测函数向所有端口发送d-bus消息，如果返回reject就说明fridaserver开启。
+
 # 检测点说明：
 # gmain：Frida 使用 Glib 库，其中的主事件循环被称为 GMainLoop。在 Frida 中，gmain 表示 GMainLoop 的线程。
 # gdbus：GDBus 是 Glib 提供的一个用于 D-Bus 通信的库。在 Frida 中，gdbus 表示 GDBus 相关的线程。
