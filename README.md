@@ -1,5 +1,13 @@
 # hook
 
+收集一些常用的hook脚本，如自吐算法，脱壳，过root、frida检测等等，下面是一个使用案列
+
+
+
+
+
+# 案例
+
 一个通杀md5，sha，mac，des，3des，aes，rsa，数字签名 算法的hook脚本。
 
 
