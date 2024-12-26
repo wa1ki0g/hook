@@ -61,7 +61,7 @@
 
 这里使用了好几组登陆数据进行抓包，发现hook到的sign的中的key的字段的值是一个常量。接下来就可以去对数据进行伪造了。
 
-app逆向好文中的大部分文件为这个师傅收集的，项目原址：https://github.com/darbra/sperm  感谢大佬
+app逆向的文章大部分为这个师傅收集的，项目原址：https://github.com/darbra/sperm  感谢大佬
 
 
 
