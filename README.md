@@ -7,6 +7,14 @@
 
 
 
+# Frida 简介
+没用过frida的建议先去了解下frida吧，下面给出了个使用demo。
+adb shell  && ./data/local/tmp/frpserver 启动frpserver
+adb forward tcp:27042 tcp:27042 转发端口到电脑
+frida-ps -Ua  查看包名
+frida -UF com.test.test -l xx.js -o xx.txt 开始hook  
+
+
 # 下面是一个使用案例
 
 一个通杀md5，sha，mac，des，3des，aes，rsa，数字签名 算法的hook脚本。
