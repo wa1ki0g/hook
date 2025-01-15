@@ -4,6 +4,7 @@ https://github.com/xiaokanghub/Frida-Android-unpack
 https://github.com/hluwa/frida-dexdump
 
 
+# pip
 或者可以先直接pip install frida-dexdump安装，直接运行试一下
 
 之后就可以直接利用
