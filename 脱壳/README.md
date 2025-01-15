@@ -1,4 +1,4 @@
-# 原项目作者及链接：
+# 两个项目的原作者及链接：
 https://github.com/xiaokanghub/Frida-Android-unpack
 
 https://github.com/hluwa/frida-dexdump
