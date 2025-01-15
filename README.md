@@ -19,7 +19,7 @@ frida-ps -Ua  查看包名
 frida -UF com.test.test -l xx.js -o xx.txt 开始hook  
 # 下面是一个使用案例
 
-例如自吐算法文件夹中的py文件中的j1.js或者j2.js：一个通杀md5，sha，mac，des，3des，aes，rsa，数字签名 算法的hook脚本。
+例如使用自吐算法文件夹中的py文件中的j1.js或者j2.js：一个通杀md5，sha，mac，des，3des，aes，rsa，数字签名 算法的hook脚本。
 
 
 原理呢其实就是hook监控了一些加密库会调用到的底层函数。
