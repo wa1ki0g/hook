@@ -16,11 +16,11 @@ frida-ps -Ua  查看包名
 frida -UF com.test.test -l xx.js -o xx.txt 开始hook  
 
 
-敲玻璃！！！
+（敲玻璃！！！
 
 hook抓包相关的时候，建议任何app都以spawn方式去hook。因为要在app完成初始化之前hook住所有的hook点，只有spawn模式下才能做到，attach时机可能太晚了。
 
-such frida -U -f com.test.test -l xx.js -o xx.txt 开始hook  
+such frida -U -f com.test.test -l xx.js -o xx.txt 开始hook）
 
 # 下面是一个使用案例
 
