@@ -14,6 +14,14 @@ adb forward tcp:27042 tcp:27042 转发端口到电脑
 frida-ps -Ua  查看包名
 
 frida -UF com.test.test -l xx.js -o xx.txt 开始hook  
+
+
+敲玻璃！！！
+
+hook抓包相关的时候，建议任何app都以spawn方式去hook。因为要在app完成初始化之前hook住所有的hook点，只有spawn模式下才能做到，attach时机可能太晚了。
+
+such frida -U -f com.test.test -l xx.js -o xx.txt 开始hook  
+
 # 下面是一个使用案例
 
 例如使用自吐算法文件夹中的py文件中的j1.js或者j2.js：一个通杀md5，sha，mac，des，3des，aes，rsa，数字签名 等算法的hook脚本。
